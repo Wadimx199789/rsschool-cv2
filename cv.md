@@ -16,7 +16,6 @@ I’m going to start working as a Junior Front-End Developer in IT product this 
 ## Code examples
 [**github** @Wadimx199789](https://github.com/Wadimx199789)
 ## Skills
-
 * ◾◾◽◽◽ Figma, Photoshop 
 * ◾◾◾◽◽ vscode 
 * ◾◾◽◽◽ HTML  
