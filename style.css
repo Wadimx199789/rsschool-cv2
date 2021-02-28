@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+    }
+body{
+    background-color: #EFEFEF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.wrapper{
+    max-width:1024px;
+    margin:0 auto;
+    
+}
+header{
+    background: #464AAA;
+}
+.header{
+    display:flex;
+    align-items: center;
+    font-size:36px;
+    font-weight: 700;
+    color:#FCEDF9;
+    justify-content:space-between;
+    padding:20px 100px;
+
+}
+.logo-image{
+    display: block;
+    width:200px;
+    height:200px;
+    background-image: url(../rsschool-cv/martin.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+}
