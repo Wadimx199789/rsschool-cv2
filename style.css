@@ -12,10 +12,10 @@ body{
     margin:0 auto;
     
 }
-header{
+header,footer{
     background: #464AAA;
 }
-.header{
+.header, .contacts{
     display:flex;
     align-items: center;
     font-size:36px;
@@ -60,5 +60,34 @@ main{
 .story{
     font-family: 'Akaya Kanadaka', cursive;
     font-size:20px;
-    margin-left:40px;
+    margin-left:40px;;
+}
+.contacts-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.social-item{
+    margin-right: 40px;
+}
+.social-vk{
+    background-image: url(../rsschool-cv/vk.svg);
+
+}
+.social-telegram{
+    background-image: url(../rsschool-cv/telegram.png);
+}
+.social-instagram{
+    background-image: url(../rsschool-cv/instagram.svg);
+  
+}
+.social-link{
+display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+    background-position: center center;
+    background-size: cover;
+    
 }
