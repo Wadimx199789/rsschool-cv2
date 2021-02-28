@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    }
+body{
+    background-color: #EFEFEF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.wrapper{
+    max-width:1024px;
+    margin:0 auto;
+    
+}
+header,footer{
+    background: #464AAA;
+}
+.header, .contacts{
+    display:flex;
+    align-items: center;
+    font-size:36px;
+    font-weight: 700;
+    color:#FCEDF9;
+    justify-content:space-between;
+    padding:20px 100px;
+
+}
+.logo-image{
+    display: block;
+    width:200px;
+    height:200px;
+    background-image: url(../rsschool-cv/martin.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 200px;
+}
+main{
+    background: #4DA2D5;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+.sectionName{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 30px;
+    margin-top:40px;
+}
+.about-list{
+    margin-left: 20px;
+}
+.list>li{
+    list-style-type: none;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size:20px;
+}
+
+.list>li>a{
+    text-decoration: none;
+}
+.story{
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size:20px;
+    margin-left:40px;;
+}
+.contacts-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.social-item{
+    margin-right: 40px;
+}
+.social-vk{
+    background-image: url(../rsschool-cv/vk.svg);
+
+}
+.social-telegram{
+    background-image: url(../rsschool-cv/telegram.png);
+}
+.social-instagram{
+    background-image: url(../rsschool-cv/instagram.svg);
+  
+}
+.social-link{
+display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-position: center center;
+    background-position: center center;
+    background-size: cover;
+    
+}
